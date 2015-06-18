@@ -1,9 +1,9 @@
 kinesisFire
 -------
 
-Fire and forget all records to the stream with a single http call.
-Easliy exceed the kinesis write rate limitation.
-Drop the records if any error occurs during the process.
+1. Fire and forget all records to the stream with a single http call.
+2. Easliy exceed the kinesis write rate limitation.
+3. Drop the records if any error occurs during the process.
 
 -----------------------------------
 
