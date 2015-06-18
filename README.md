@@ -72,8 +72,13 @@ Returns a readable and writable Node.js stream for the given Kinesis stream
 
 `options` include:
 
+<<<<<<< HEAD
   - `region`: a string, or (deprecated) object with AWS credentials, host, port, etc (resolved from env or file by default)
   - `credentials`: an object with `accessKeyId`/`secretAccessKey` properties (resolved from env, file or IAM by default)
+=======
+  - `region`: a string (`us-east-1` by default)
+  - `credentials`: an object with AWS credentials. (credentials : {accessKeyId : XXXX, secretAccessKey : XXXX})
+>>>>>>> 413b5dc6d1502665edecf75dc0d0fe171a19905f
   - `shards`: an array of shard IDs, or shard objects. If not provided, these will be fetched and cached.
   - `oldest`: if truthy, then will start at the oldest records (using `TRIM_HORIZON`) instead of the latest
   - `writeConcurrency`: how many parallel writes to allow (`1` by default)
